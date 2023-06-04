@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 2;
+    padding: 4rem 8rem;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+.title {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -20%);
+}
